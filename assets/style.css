@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+  }
+  .clear{
+      clear: both;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f9fc;
+    overflow-x: auto;
+}
+.main-container{
+    height: auto;
+    /* overflow: auto; */
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+  
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  /* Style the topnav links */
+  .topnav .Site-Name{
+      float: left;
+      font-weight: bold;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: #7d7d7d;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+.phone-detail{
+    margin-top: 2%;
+    padding: 15px;
+    margin-left: 5%;
+}
+.phone-text{
+    color: #7d7d7d;
+}
+.phone-img{
+    float: left;
+}
+.phone-info{
+    float: left;
+    padding: 20px;
+    
+}
+.rating{
+    font-size: 27px;
+    color: #7d7d7d;
+}
+.verison{
+    font-size: 15px;
+    padding: 15px;
+    color: #000;
+}
+.shop{
+    margin-left: 20%;
+    padding: 14px 41px;
+    background-color: #637fff;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+.price{
+    color: #8a9fff;
+}
+.price-tag{
+    line-height: 0px;
+    color: #607cff;
+}
+.offer-tag{
+    font-size: 12px;
+    color: #9192ab;
+}
+.spec-header{
+    font-weight: bold;
+}
+
+.phone-detail h2 {
+    font-weight: bold;
+}
+.phone-spec{
+    float: left;
+    margin-left: 100px;
+}
+.phone-spec-container{
+    
+    width: 100%;
+    height: auto;
+}
+.all-review{
+    color: #696a8c;
+}
+
+.offer-container{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 16%;
+}
+.offer{
+    float: left;    
+}
+.spec-row{
+    margin-left: 3%;
+}
+
+.middle-body{
+    margin-top: 5%;
+    /* margin-left: 8%; */
+}
+
+.left-side-info{
+    
+    float: left;
+    margin-left: 10%;
+    /* margin-right: 20.2%; */
+}
+.right-side-info{
+    float: right;
+    /* margin-left: 32%; */
+}
+li {
+    list-style: none;
+    color: #9192ab;
+}
+.spec-info{
+    padding-bottom: 16px;
+    font-size: 18px;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+.related-product{
+    background-color: #fff;
+    margin-left: 3%;
+}
+.related-product h4 p{
+ display: inline;
+ padding: 0px;
+}
+body{
+    margin: 0px;
+}
+.product{
+    background-color: #fff;
+    margin-bottom: 4%;
+	    padding: 10px;
+}
+.spec{
+    background-color: #fff;
+    margin-bottom: 3%;
+padding: 15px;
+}
+
+.review{
+    padding: 20px;
+}
+.review select{
+    padding: 5px;
+    border-color: #dddddd;
+    color: #83839e;
+}
+.review table{
+    border-spacing: 20px;
+}
+.review table tbody tr td{
+    padding: 7px;
+    border: 1px solid #dddddd;
+}
+.review-comment{
+    padding: 15px;
+}
+.graph{
+    margin-left: 12%;
+}
+.graph-text{
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    display: block;
+    background-color: #000000 !important;
+
+}
+.company-Info{
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 8%;
+}
+.company-Info p{
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
